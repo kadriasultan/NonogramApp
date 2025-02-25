@@ -11,7 +11,7 @@ namespace NonogramApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm()); // Start het hoofdscherm
+            Application.Run(new MainForm());
         }
     }
 }

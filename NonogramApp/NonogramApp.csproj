@@ -52,12 +52,6 @@
     <Compile Include="Data\DatabaseHelper.cs" />
     <Compile Include="Data\GameRepository.cs" />
     <Compile Include="Data\UserRepository.cs" />
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Models\GameModel.cs" />
     <Compile Include="Models\SettingModel.cs" />
     <Compile Include="Models\UserModel.cs" />
