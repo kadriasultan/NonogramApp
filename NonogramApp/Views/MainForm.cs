@@ -19,5 +19,10 @@ namespace NonogramApp.Views
         {
 
         }
+
+        private void Login_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
