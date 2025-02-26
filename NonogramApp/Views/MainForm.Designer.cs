@@ -19,8 +19,6 @@
             this.lblHeader = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnHome = new System.Windows.Forms.Button();
-            this.btnPuzzels = new System.Windows.Forms.Button();
-            this.btnInstellingen = new System.Windows.Forms.Button();
             this.btnProfiel = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.Welkom = new System.Windows.Forms.Label();
@@ -32,7 +30,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Puzzel2 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnPlayNow = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblHeader.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
@@ -54,12 +52,10 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.Controls.Add(this.btnHome);
-            this.flowLayoutPanel1.Controls.Add(this.btnPuzzels);
-            this.flowLayoutPanel1.Controls.Add(this.btnInstellingen);
             this.flowLayoutPanel1.Controls.Add(this.btnProfiel);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(888, 29);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(1129, 19);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(500, 35);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(271, 35);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // btnHome
@@ -74,33 +70,11 @@
             this.btnHome.UseVisualStyleBackColor = false;
             this.btnHome.Click += new System.EventHandler(this.Home_Click);
             // 
-            // btnPuzzels
-            // 
-            this.btnPuzzels.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnPuzzels.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPuzzels.Location = new System.Drawing.Point(145, 3);
-            this.btnPuzzels.Name = "btnPuzzels";
-            this.btnPuzzels.Size = new System.Drawing.Size(116, 27);
-            this.btnPuzzels.TabIndex = 1;
-            this.btnPuzzels.Text = "Puzzels";
-            this.btnPuzzels.UseVisualStyleBackColor = false;
-            // 
-            // btnInstellingen
-            // 
-            this.btnInstellingen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnInstellingen.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInstellingen.Location = new System.Drawing.Point(267, 3);
-            this.btnInstellingen.Name = "btnInstellingen";
-            this.btnInstellingen.Size = new System.Drawing.Size(113, 27);
-            this.btnInstellingen.TabIndex = 2;
-            this.btnInstellingen.Text = "Instellingen";
-            this.btnInstellingen.UseVisualStyleBackColor = false;
-            // 
             // btnProfiel
             // 
             this.btnProfiel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnProfiel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProfiel.Location = new System.Drawing.Point(386, 3);
+            this.btnProfiel.Location = new System.Drawing.Point(145, 3);
             this.btnProfiel.Name = "btnProfiel";
             this.btnProfiel.Padding = new System.Windows.Forms.Padding(1);
             this.btnProfiel.Size = new System.Drawing.Size(106, 27);
@@ -143,7 +117,7 @@
             // 
             this.Registeren.BackColor = System.Drawing.Color.LightSteelBlue;
             this.Registeren.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Registeren.Location = new System.Drawing.Point(1129, 23);
+            this.Registeren.Location = new System.Drawing.Point(1280, 32);
             this.Registeren.Name = "Registeren";
             this.Registeren.Size = new System.Drawing.Size(100, 40);
             this.Registeren.TabIndex = 3;
@@ -154,7 +128,7 @@
             // 
             this.Login.BackColor = System.Drawing.Color.LightSteelBlue;
             this.Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Login.Location = new System.Drawing.Point(1007, 23);
+            this.Login.Location = new System.Drawing.Point(1158, 32);
             this.Login.Name = "Login";
             this.Login.Size = new System.Drawing.Size(100, 40);
             this.Login.TabIndex = 2;
@@ -186,7 +160,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(503, 234);
+            this.pictureBox1.Location = new System.Drawing.Point(455, 234);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(510, 318);
             this.pictureBox1.TabIndex = 3;
@@ -212,16 +186,17 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Een uitdagende puzzel met een complex patroon.";
             // 
-            // button1
+            // btnPlayNow
             // 
-            this.button1.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(584, 588);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(318, 51);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Speel nu";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnPlayNow.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnPlayNow.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPlayNow.Location = new System.Drawing.Point(565, 588);
+            this.btnPlayNow.Name = "btnPlayNow";
+            this.btnPlayNow.Size = new System.Drawing.Size(318, 51);
+            this.btnPlayNow.TabIndex = 6;
+            this.btnPlayNow.Text = "Speel nu";
+            this.btnPlayNow.UseVisualStyleBackColor = false;
+            this.btnPlayNow.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel2
             // 
@@ -238,7 +213,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1437, 714);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnPlayNow);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Puzzel2);
             this.Controls.Add(this.pictureBox1);
@@ -263,8 +238,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button btnHome;
-        private System.Windows.Forms.Button btnPuzzels;
-        private System.Windows.Forms.Button btnInstellingen;
         private System.Windows.Forms.Button btnProfiel;
         private System.Windows.Forms.Label Welkom;
         private System.Windows.Forms.Panel panel1;
@@ -275,7 +248,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label Puzzel2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnPlayNow;
         private System.Windows.Forms.Panel panel2;
     }
 }

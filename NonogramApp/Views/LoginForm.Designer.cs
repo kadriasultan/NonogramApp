@@ -33,27 +33,27 @@ namespace NonogramApp.Views
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(112, 24);
-            this.txtUsername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUsername.Location = new System.Drawing.Point(149, 30);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(151, 20);
+            this.txtUsername.Size = new System.Drawing.Size(200, 22);
             this.txtUsername.TabIndex = 0;
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(112, 65);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPassword.Location = new System.Drawing.Point(149, 80);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(151, 20);
+            this.txtPassword.Size = new System.Drawing.Size(200, 22);
             this.txtPassword.TabIndex = 1;
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(112, 106);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLogin.Location = new System.Drawing.Point(137, 130);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(56, 19);
+            this.btnLogin.Size = new System.Drawing.Size(75, 23);
             this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "Inloggen";
             this.btnLogin.UseVisualStyleBackColor = true;
@@ -61,10 +61,10 @@ namespace NonogramApp.Views
             // 
             // btnRegister
             // 
-            this.btnRegister.Location = new System.Drawing.Point(188, 106);
-            this.btnRegister.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRegister.Location = new System.Drawing.Point(251, 130);
+            this.btnRegister.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(75, 19);
+            this.btnRegister.Size = new System.Drawing.Size(100, 23);
             this.btnRegister.TabIndex = 3;
             this.btnRegister.Text = "Registreren";
             this.btnRegister.UseVisualStyleBackColor = true;
@@ -73,35 +73,33 @@ namespace NonogramApp.Views
             // lblUsername
             // 
             this.lblUsername.AutoSize = true;
-            this.lblUsername.Location = new System.Drawing.Point(22, 27);
-            this.lblUsername.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblUsername.Location = new System.Drawing.Point(29, 33);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(87, 13);
+            this.lblUsername.Size = new System.Drawing.Size(110, 16);
             this.lblUsername.TabIndex = 4;
             this.lblUsername.Text = "Gebruikersnaam:";
             // 
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
-            this.lblPassword.Location = new System.Drawing.Point(22, 67);
-            this.lblPassword.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblPassword.Location = new System.Drawing.Point(29, 82);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(71, 13);
+            this.lblPassword.Size = new System.Drawing.Size(85, 16);
             this.lblPassword.TabIndex = 5;
             this.lblPassword.Text = "Wachtwoord:";
             // 
             // LoginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(601, 462);
+            this.ClientSize = new System.Drawing.Size(801, 569);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.lblUsername);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "LoginForm";
             this.Text = "Inloggen";
             this.ResumeLayout(false);
