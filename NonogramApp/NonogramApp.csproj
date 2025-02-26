@@ -58,7 +58,6 @@
     <Compile Include="Utils\FileHelper.cs" />
     <Compile Include="Utils\Logger.cs" />
     <Compile Include="Utils\UIHelper.cs" />
-    <Compile Include="Views\LoginForm .Designer.cs" />
     <Compile Include="Views\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,7 +87,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Views\LoginForm .resx" />
     <EmbeddedResource Include="Views\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
