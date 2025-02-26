@@ -57,9 +57,9 @@
             this.flowLayoutPanel1.Controls.Add(this.btnPuzzels);
             this.flowLayoutPanel1.Controls.Add(this.btnInstellingen);
             this.flowLayoutPanel1.Controls.Add(this.btnProfiel);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(862, 24);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(888, 29);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(496, 40);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(500, 35);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // btnHome
@@ -68,7 +68,7 @@
             this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHome.Location = new System.Drawing.Point(3, 3);
             this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(136, 34);
+            this.btnHome.Size = new System.Drawing.Size(136, 27);
             this.btnHome.TabIndex = 0;
             this.btnHome.Text = "Home";
             this.btnHome.UseVisualStyleBackColor = false;
@@ -80,7 +80,7 @@
             this.btnPuzzels.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPuzzels.Location = new System.Drawing.Point(145, 3);
             this.btnPuzzels.Name = "btnPuzzels";
-            this.btnPuzzels.Size = new System.Drawing.Size(116, 34);
+            this.btnPuzzels.Size = new System.Drawing.Size(116, 27);
             this.btnPuzzels.TabIndex = 1;
             this.btnPuzzels.Text = "Puzzels";
             this.btnPuzzels.UseVisualStyleBackColor = false;
@@ -91,7 +91,7 @@
             this.btnInstellingen.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInstellingen.Location = new System.Drawing.Point(267, 3);
             this.btnInstellingen.Name = "btnInstellingen";
-            this.btnInstellingen.Size = new System.Drawing.Size(113, 34);
+            this.btnInstellingen.Size = new System.Drawing.Size(113, 27);
             this.btnInstellingen.TabIndex = 2;
             this.btnInstellingen.Text = "Instellingen";
             this.btnInstellingen.UseVisualStyleBackColor = false;
@@ -103,7 +103,7 @@
             this.btnProfiel.Location = new System.Drawing.Point(386, 3);
             this.btnProfiel.Name = "btnProfiel";
             this.btnProfiel.Padding = new System.Windows.Forms.Padding(1);
-            this.btnProfiel.Size = new System.Drawing.Size(106, 34);
+            this.btnProfiel.Size = new System.Drawing.Size(106, 27);
             this.btnProfiel.TabIndex = 3;
             this.btnProfiel.Text = "Profiel";
             this.btnProfiel.UseVisualStyleBackColor = false;
